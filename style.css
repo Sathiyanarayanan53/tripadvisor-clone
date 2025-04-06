@@ -1,0 +1,247 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: 'Roboto', times, sans-serif;
+}
+.title-logo{
+    height: 50px;
+    width: 50px;
+}
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    gap:5px;
+    align-items: center;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px ;
+    border-bottom: 1px solid black;
+    position:sticky;
+    z-index: 1;
+    background-color: white;
+    top:0;
+}
+
+.categories{
+    display: flex;
+    gap: 30px;
+}
+.signup{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.signup p{
+    background-color:black;
+    color:white;
+    padding:10px;
+    width:70px;
+    border-radius:50px;
+    text-align:center;
+    
+}
+.navbar__heading{
+    text-align:center;
+    padding:50px;
+}
+.navbar__searchbar__icon{
+    width:20px;
+    margin-left: 1px;;
+}
+.navbar__search{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:50px;
+    align-items: center;
+}
+.navbar__search img{
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+.navbar__search p:active{
+    cursor:pointer;
+    border-bottom:2px solid black;
+    transition: linear 2s;
+    animation-name:scale;
+    animation-duration: 0.5s;
+}
+@keyframes scale{
+    0%{
+        transform:scale(1);
+    }
+    50%{
+        transform:scale(1.2);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+.searchbox{
+    display: flex;
+    margin-top: 15px;
+    justify-content: center;
+    
+}
+.navbar__searchbar {
+    border:1px solid black;
+    border-radius: 50px;
+    width:60%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10px;
+    
+       
+}
+.navbar__searchbar__input{
+    border:none;
+    outline:none;
+    width:60%;
+
+}
+.navbar__searchbar__button{
+    background-color:#84e9bd;
+    border-radius:50px;
+    margin-right:5px;
+    padding:10px;
+    width:100px;
+    font-weight: bolder;
+    border:none;
+}
+.panel__img{
+    display: flex;
+    justify-content: center; 
+    margin-top:20px;
+    margin-bottom:20px;
+    width:100%;
+    height:100%;   
+    /* height:20%; */
+}
+.panel-detail{
+    color:whitesmoke;
+    font-size: x-large;
+    left:50px;
+    flex-wrap: wrap;
+    display: flex; 
+    flex-direction: column; 
+    position:absolute;
+    top:85%;
+    width:400px;
+}
+.panel-button{
+    margin-top:20px;
+    background-color: white;
+    color:black;
+    border-radius:50px;
+    padding:10px;
+    width:200px;
+    font-weight: bolder;
+    
+}
+.panel-button:hover{
+    background-color: black;
+    color:white;
+    transition: linear 1s;
+}
+.tripcard img{
+    width:200px;
+
+}
+.description__header{
+    margin-left: 10px;
+}
+.description__menu{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr) );
+    margin-left: 50px;
+    margin-top:20px;
+}
+
+.tripcard h2{
+    color:whitesmoke;
+    text-shadow: 2px 2px 4px black;
+    font-size: x-large;
+    position: relative;
+    bottom:40px;
+    left:20px;
+}
+.desc__sug{
+    background-color: antiquewhite;
+    
+}
+.desc__sug__heading
+{
+    padding-top: 30px;
+    padding-left:10px;
+    padding-bottom:50px;
+    
+}
+
+.description__sug{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr) );  
+    padding-left:100px; 
+    padding-bottom: 50px;
+         
+}
+.description__sug img{
+    width:300px;
+    height:200px;
+}
+.description__sug p{
+    width: 250px;
+    text-align: center;
+}
+.description__sug h2{
+    color:whitesmoke;
+    text-shadow: 2px 2px 4px black;
+    font-size: x-large;
+    position: relative;
+    bottom:40px;
+    left:20px;
+}
+.footer{
+    padding:30px;
+    margin:10px;
+    background-color: grey;
+
+}
+.footer-one{
+    display:flex;
+    justify-content: space-between;
+}
+.footer-one p{
+    margin-top:10px;
+    /* align-items: stretch; */
+}
+.footer-two{
+    margin-top:50px;    
+    display: flex;
+    justify-content: space-between;
+    margin-left:50px;
+}
+.footer-two__s2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.footer-two__s2 select{
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size:14px;
+    font-weight: bolder;
+    text-align: center;
+    border:2px solid black;
+}
