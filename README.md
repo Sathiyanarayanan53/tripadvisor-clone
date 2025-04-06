@@ -1,6 +1,6 @@
 # 🌍 TripAdvisor Clone (HTML & CSS)
 
-🔗 **Live Demo:** [Click here to view](https://yourusername.github.io/tripadvisor-clone)
+🔗 **Live Demo:** [Click here to view](https://sathiyanarayanan53.github.io/tripadvisor-clone/)
 
 This is a basic **TripAdvisor-style** static web page built using only **HTML** and **CSS**.
 
